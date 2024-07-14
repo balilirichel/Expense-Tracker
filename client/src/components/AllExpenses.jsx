@@ -136,7 +136,7 @@ const AllExpenses = () => {
                 </div>
                 { query && <h2 className="flex flex-wrap w-full text-xl mx-auto font-medium ">Showing results for <span className=" ml-3 text-green-600 max-w-[90%] inline-flex break-all whitespace-pre-wrap ">{query}</span></h2>}
                 { isFilter && <h2 className="flex flex-wrap w-full text-xl mx-auto font-medium ">Showing results from <span className=" w-fit mx-3 text-green-600">{formatDate(filteredDates.start)}</span> to <span className= " w-fit text-green-600 ml-3">{formatDate(filteredDates.end)}</span></h2>}
-                { filteredExpenses.length>0 && <h2 className="text-xl mx-auto mb-2 text-center w-fit sm:w-full font-semibold md:text-2xl md:mb-4">Total Expenditure : Rs.{calculateTotal(filteredExpenses)} </h2>}
+                { filteredExpenses.length>0 && <h2 className="text-xl mx-auto mb-2 text-center w-fit sm:w-full font-semibold md:text-2xl md:mb-4">Total Expenditure : Php.{calculateTotal(filteredExpenses)} </h2>}
                 { filteredExpenses.length>0 ? (
                     <div className="overflow-x-auto w-full flex justify-center items-center shadow-md sm:rounded-lg">
                         <div className="w-full flex flex-col md:pt-2 ">

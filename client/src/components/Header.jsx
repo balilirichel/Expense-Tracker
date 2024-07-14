@@ -14,7 +14,7 @@ const Header = () => {
           <Link to={"/"}>
           <div className="flex items-center gap-x-1">
             <img src="/vite.svg" alt="VTrack" className="h-7 w-7 md:h-10 md:w-10 cursor-pointer"/>
-            <span className='text-2xl font-medium text-white'>VTrack</span>
+            <span className='text-2xl font-medium text-white'>Expense Track</span>
           </div>
           </Link>
           <span className='text-xl font-semibold text-white'>{(user?.name).split(" ")[0]}</span>
